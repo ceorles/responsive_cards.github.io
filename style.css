@@ -35,6 +35,11 @@ p {
     width: 5px;
 }
 
+/* CORNER */
+::-webkit-scrollbar-corner {
+    background-color: #FFCDCD;
+}
+
 /* THUMB SLIDER */
 ::-webkit-scrollbar-thumb:vertical{
     background: #EBADAD;
