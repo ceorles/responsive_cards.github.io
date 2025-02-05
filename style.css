@@ -150,10 +150,6 @@ nav h1 {
 }
 
 /* HOVER AND FOCUS LANG KAY CRUSH */
-.hero .container .row .col:last-child .col-1 .blur {
-    filter: blur(20px);
-}
-
 .hero .container .row .col:last-child .box .quote {
     text-align: center;
     font-weight: bold;
