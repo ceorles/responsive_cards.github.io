@@ -223,7 +223,8 @@ nav h1 {
     }
 
     p {
-        height: 75px;
+        height: 100px;
+        padding: 0 5px;
         margin-bottom: 15px;
         font-size: 15px;
     }
