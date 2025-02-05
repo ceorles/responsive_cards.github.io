@@ -45,6 +45,7 @@ p {
 nav {
     background-color: #FFCDCD;
     border-bottom: #EBADAD solid 8px;
+    padding: 0 80px 0 60px;
 }
 
 nav ul {
@@ -180,9 +181,19 @@ nav h1 {
 }
 /* HERO SECTION */
 
-@media (max-width: 768px) { 
+@media (max-width: 1100px) {
+    nav {
+        padding: 0 20px 0 0;
+    }
+}
+
+@media (max-width: 768px) {
     h2 {
         font-size: 4vw;
+    }
+
+    nav {
+        padding: 0;
     }
 
     .hero .container .row .col {
@@ -203,6 +214,10 @@ nav h1 {
 }
 
 @media (max-width: 500px) {
+    nav h1 {
+        margin-left: 30px;
+    }
+
     h2 {
         font-size: 6vw;
     }
