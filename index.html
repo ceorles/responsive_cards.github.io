@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="images/x-icon" href="favicon.ico">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li class="x" onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <ul>
+            <h1>ceorles</h1>
+            <li class="hide"><a href="#">Home</a></li>
+            <li class="hide"><a href="#">About</a></li>
+            <li class="hide"><a href="#">Project</a></li>
+            <li class="hide"><a href="#">Contact</a></li>
+            <li class="menu" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="me.png" alt="Charles Andrei Berches">
+                    <h2>Charles Berches</h2>
+                    <p>I’m Charles Andrei Berches, a 19-year-old IT student. I don't have anything more to say about myself, not because it’s private, but because it’s simply boring.</p>
+                </div>
+                <div class="col">
+                    <img src="hobby.png" alt="Hobby">
+                    <h2>Sleeping</h2>
+                    <p>I like to sleep because sleep is a escape from the reality, where pain disappears and peace takes over.</p>
+                </div>
+                <div class="col">
+                    <img src="her.png" alt="MAR MAR MAR">
+                    <h2>???</h2>
+                    <p>Proverbs 3:15</p>
+                    <div class="meaning">
+                        <p>She is more precious than rubies, nothing you desire can compare with her.</p>
+                    </div>
+                    <!-- No words could ever truly capture the depth of how much I like her. -->
+                    <!-- Words fail to express just how deeply I care for her. -->
+                    <!-- There are no words that can fully convey the extent of my feelings for her. -->
+                    <!-- Words can't fully express just how much I like her. -->
+                    <!-- No words can even begin to describe how much I like her. -->
+                    <!-- Words fall short when it comes to describing how much I like her. -->
+                    <!-- There's no way to put into words just how much I like her. -->
+                    <!-- Nothing can express how much I like her. -->
+                    <!-- Not even words can describe how much I like her. -->
+                    <!-- There's no way words could ever describe how much I like her -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            
+        </div>
+    </footer>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector(".sidebar");
+            sidebar.style.display = 'flex'
+        }
+
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+</html>
