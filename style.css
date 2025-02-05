@@ -37,11 +37,11 @@ p {
 
 /* CORNER */
 ::-webkit-scrollbar-corner {
-    background-color: #FFCDCD;
+    background: #FFCDCD;
 }
 
 /* THUMB SLIDER */
-::-webkit-scrollbar-thumb:vertical{
+::-webkit-scrollbar-thumb:vertical {
     background: #EBADAD;
     border-radius: 10px;
 }
