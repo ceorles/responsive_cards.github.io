@@ -24,7 +24,8 @@ p {
     margin: 25px 10px;
     text-align: justify;
     overflow-x: scroll;
-    font-size: 22px;
+    height: auto;
+    font-size: 18px;
     padding: 0 20px;
 }
 
@@ -184,10 +185,6 @@ nav h1 {
         font-size: 4vw;
     }
 
-    p {
-        font-size: 18px;
-    }
-
     .hero .container .row .col {
         width: 39%;
     }
@@ -208,6 +205,11 @@ nav h1 {
 @media (max-width: 500px) {
     h2 {
         font-size: 6vw;
+    }
+
+    p {
+        height: 70px;
+        font-size: 15px;
     }
 
     .sidebar {
